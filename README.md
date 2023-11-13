@@ -16,7 +16,7 @@ Enhance your server welcome with personalized titles and particle effects!
 
 ## Installation:
 
-1. Download the [WelcomeTitlePlus.jar](https://example.com/WelcomeTitlePlus.jar) file.
+1. Download the [WelcomeTitlePlus.jar](https://www.spigotmc.org/resources/titleonjoin.113517/) file.
 2. Place the JAR file in your server's plugins folder.
 3. Restart your Spigot server.
 
