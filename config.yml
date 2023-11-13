@@ -1,0 +1,58 @@
+TitleOnJoin: "&6&lWelcome %PlayerName%"
+SubTitleOnJoin: "To Our Server!"
+
+Enter: 3
+Stay: 60
+Exit: 3
+
+
+# (*) Used to set particles when the player joins the server (*)
+# Keep in mind, the particles spawn before the player load into the map
+
+Particles: false
+ParticleType: "Clouds"
+
+#===================================
+#   Particles: (Case Sensitive)
+#             
+#      Clouds
+#      Hearts
+#      Spark
+#      Soul
+#
+#===================================
+
+#===================================
+#   Place-Holders:  (Case Sensitive)
+#      
+#      %PlayerName%: Player's In Game Name
+#
+#===================================
+
+#===================================
+#   Formatting Codes:
+#      
+#      &0: Black
+#      &1: Dark Blue
+#      &2: Dark Green
+#      &3: Dark Aqua
+#      &4: Dark Red
+#      &5: Dark Purple
+#      &6: Gold
+#      &7: Gray
+#      &8: Dark Grey
+#      &9: Blue
+#      &a: Green
+#      &b: Aqua
+#      &c: Red
+#      &d: Light Purple
+#      &e: Yellow
+#      &f: White
+#      &k: Obfuscated
+#      &l: Bold
+#      &m: Strike-Through
+#      &n: Underline
+#      &o: Italic
+#      &r: Reset
+#
+#===================================
