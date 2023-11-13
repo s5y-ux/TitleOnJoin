@@ -1,5 +1,7 @@
 # TitleOnJoin - Minecraft Spigot Plugin
-
+![Minecraft](https://img.shields.io/badge/Minecraft-1.20+-brightgreen.svg)
+![Spigot](https://img.shields.io/badge/Spigot-1.20.2-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![407c7b7b6fb14d9](https://github.com/s5y-ux/TitleOnJoin/assets/59636597/9a23e3be-18d5-4b36-966b-982edf9f181c)
 
 
