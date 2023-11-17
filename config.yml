@@ -1,16 +1,32 @@
 TitleOnJoin: "&6&lWelcome %PlayerName%"
 SubTitleOnJoin: "To Our Server!"
 
+#The time for the title to enter, stay, and exit
+
 Enter: 3
 Stay: 60
 Exit: 3
 
+#Plays a sound when the player joins the server
+
+PlaySoundOnJoin: false
+Sound: "EXP"
 
 # (*) Used to set particles when the player joins the server (*)
 # Keep in mind, the particles spawn before the player load into the map
 
 Particles: false
 ParticleType: "Clouds"
+
+#===================================
+#   Sounds: (Case Sensitive)
+#             
+#      EXP
+#      Anvil
+#      Trade
+#      Firework
+#
+#===================================
 
 #===================================
 #   Particles: (Case Sensitive)

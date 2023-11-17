@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 import org.bukkit.Location;
 import org.bukkit.Particle;
+import org.bukkit.Sound;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -85,6 +86,21 @@ public class OnPlayerJoin implements Listener {
             } else {
                 main.console.sendMessage(ChatColor.RED + "Check to see if the particles in the console were spelled right...");
             }
+        }
+        
+        HashMap <String, Sound> SoundMap = new HashMap <String, Sound>();
+        
+        SoundMap.put("EXP", Sound.ENTITY_PLAYER_LEVELUP);
+        SoundMap.put("Anvil", Sound.BLOCK_ANVIL_HIT);
+        SoundMap.put("Trade", Sound.ENTITY_VILLAGER_TRADE);
+        SoundMap.put("Firework", Sound.ENTITY_FIREWORK_ROCKET_SHOOT);
+        
+        if(config.getBoolean("PlaySoundOnJoin")) {
+        	if(SoundMap.keySet().contains(config.getString("Sound"))) {
+        		player.playSound(PlayerLocation, SoundMap.get(config.getString("Sound")), 500, 0);
+        	} else {
+        		main.console.sendMessage(ChatColor.RED + "Unknown Sound Option in Config...");
+        	}
         }
 
 

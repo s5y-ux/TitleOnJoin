@@ -23,6 +23,8 @@ public class Main extends JavaPlugin{
 		config.addDefault("Enter", 3);
 		config.addDefault("Stay", 60);
 		config.addDefault("Exit", 3);
+		config.addDefault("PlaySoundOnJoin", false);
+		config.addDefault("Sound", "EXP");
 		
 		//Saves the configuration file
 		this.saveDefaultConfig();
