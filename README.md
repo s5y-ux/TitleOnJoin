@@ -47,4 +47,9 @@ This plugin is released under the [MIT License](https://example.com/license).
 
 - Special thanks to the Minecraft community for their continued support.
 
+## Screen-Shots
+
+![2024-04-03_23 51 03](https://github.com/s5y-ux/TitleOnJoin/assets/59636597/b5bda2fe-17e5-44ff-acbd-c29030cecb9e)
+
+
 ### Download WelcomeTitlePlus now and elevate your server's welcome experience!
