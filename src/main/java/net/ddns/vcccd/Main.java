@@ -16,6 +16,7 @@ public class Main extends JavaPlugin{
 		FileConfiguration config = this.getConfig();
 		
 		//Adds the default configuration options to the plugin
+		config.addDefault("HexCodes", false);
 		config.addDefault("TitleOnJoin", "&6&lWelcome %PlayerName%");
 		config.addDefault("SubTitleOnJoin", "To Our Server!");
 		config.addDefault("Particles", false);

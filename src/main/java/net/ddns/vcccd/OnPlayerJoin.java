@@ -51,11 +51,20 @@ public class OnPlayerJoin implements Listener {
         }
 
         //Used to translate formatting codes from the standard Unicode Character
+        if(!config.getBoolean("HexCodes")) {
         String title = ChatColor.translateAlternateColorCodes('&', PassValueOne);
-        String subtitle = ChatColor.translateAlternateColorCodes('&', PassValueTwo);
-
-        //Send the player subtitles
+        String subtitle = ChatColor.translateAlternateColorCodes('&', PassValueTwo); 
+      //Send the player subtitles
         player.sendTitle(title, subtitle, config.getInt("Enter"), config.getInt("Stay"), config.getInt("Exit"));
+        } 
+        else {
+        	String title = HexColorConverter.convertHexCodes(PassValueOne);
+        	String subtitle = HexColorConverter.convertHexCodes(PassValueTwo);
+        	player.sendTitle(title, subtitle, config.getInt("Enter"), config.getInt("Stay"), config.getInt("Exit"));
+        }
+        
+        
+        //player.sendMessage(ChatColor.of(new java.awt.Color(20, 2, 12)) + "Test");
 
         //Gets the player location
         Location PlayerLocation = player.getLocation();

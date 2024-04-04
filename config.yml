@@ -1,3 +1,7 @@
+#If you message uses custom color codes, make this true
+HexCodes: false
+
+#Enter the text that will display on the title screen
 TitleOnJoin: "&6&lWelcome %PlayerName%"
 SubTitleOnJoin: "To Our Server!"
 
